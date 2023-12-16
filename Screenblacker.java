@@ -19,7 +19,7 @@ public class ScreenCapture extends JFrame {
     private Robot robot;
     private JPanel panel;
     private boolean ctrlPressed = false;
-    private int blankSize = 150; // Adjust this to change the blank size
+    private int blankSize = 150;                              // Adjust this to change the blank size
 
     public ScreenCapture() {
         try {
